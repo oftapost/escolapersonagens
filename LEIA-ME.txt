@@ -1,0 +1,18 @@
+Characters School / Escola de Personagens - pacote da landing (/br)
+
+Estrutura (igual à original):
+  index.html            redireciona para /br/
+  br/index.html         a página (HTML original, limpo)
+  assets/css/style.css  estilo reconstruído a partir dos prints
+  assets/js/main.js     interações reconstruídas (sem bibliotecas externas)
+  assets/img, assets/video
+
+Para publicar: envie todo o conteúdo desta pasta para a raiz do domínio.
+
+Pendências:
+  - CS008.webp (Don Nuger) e CS010.webp (Sebastián Perfil) são marcadores provisórios: troque pelos retratos originais com o mesmo nome.
+  - Confira se cada rosto está com o nome certo no carrossel (parte foi associada por dedução).
+  - A imagem do topo está em 480px; se tiver a versão maior, substitua assets/img/br/hero-trio-br2-480.webp.
+  - Faltam br/termos.html, br/privacidade.html, br/reembolso.html e assets/img/og.jpg.
+  - Confira os links de checkout dos dois planos em br/index.html (data-checkout="starter" e "pro").
+  - A página está com <meta name="robots" content="noindex, nofollow">; remova quando quiser que o Google indexe.
